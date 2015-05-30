@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+{% block style %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'blackjack/blackjack.css' %}" />
+{% endblock style %}
+
+
+{% block content %}
+
+<body>
+
+
+<div id="black">{{ name }}</div>
+
+</body>
+
+{% endblock %}
